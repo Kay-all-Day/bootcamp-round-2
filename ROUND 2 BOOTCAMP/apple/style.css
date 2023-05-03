@@ -1,0 +1,72 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background: #000;
+}
+div.carousel{
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+    /* overflow-x: scroll; */
+    max-width: 100%;
+    
+    
+}
+div.item{
+    padding: 10px;
+    min-width: 300px;
+    /* min-width: 300px; */
+    background-image: url(./images/pexels-erik-mclean-7549113.jpg);
+    background-size: cover;
+    color: antiquewhite;
+    background-position: center center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+div.item a{
+    background-color: #eee;
+    color: #000;
+    /* height: 30px; */
+    text-decoration: none;
+    padding: 10px 50px;
+    box-shadow: #ebb13c 10px 5px;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+div.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 2px; */
+    height: 90vh;
+    width: 100%;
+    background-image: url(./images/pexels-erik-mclean-7549119.jpg);
+    background-size: cover;
+    color: antiquewhite;
+    background-position: center center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+div.banner a{
+    background-color: #eee;
+    color: #000;
+    /* height: 30px; */
+    text-decoration: none;
+    padding: 10px 50px;
+    box-shadow: #ebb13c 10px 5px;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+section{
+    display: flex;
+    
+}
+section h4{
+    font-size: larger;
+    color: #ebb13c;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

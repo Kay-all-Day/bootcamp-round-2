@@ -1,0 +1,26 @@
+section{
+    background-color: #d2d818;
+    margin: 40px auto;
+    border-radius: 12px;
+    padding: 10px;
+    width: 500px;
+    border: 2px solid #000;
+}
+h3.title{
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+}
+.blue{
+    color: blue;
+}
+.big{
+    font-size: 20px;
+}
+.button{
+    background: olive;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu selector</title>
+</head>
+<body>
+    <form action="./process.html" method="post">
+        <div>
+            <label for=""> First Name</label>
+            <input type="text" name="first_name" id="first_name">
+        </div>
+        <br>
+        <div>
+            <label for=""> Surname</label>
+            <input type="text" name="surname" id="surname">
+        </div>
+        <br>
+        <div>
+            <label for=""> Date of Birth</label>
+            <input type="date" name="date_of_birth" id="dob">
+        </div>
+        <br>
+        <div>
+            <label for="">I have an allergy to</label>
+            <br>
+            <input type="checkbox" name="allergies1" id="allergies1" value="Beans">
+            <label for="allergies1"> Beans</label>
+            <input type="checkbox" name="allergies2" id="allergies2" value="Milk">
+            <label for="allergies2"> Milk</label>
+            <input type="checkbox" name="allergies3" id="allergies3" value="Water">
+            <label for="allergies3"> Water</label>
+            <input type="checkbox" name="allergies4" id="allergies4" value="Yam">
+            <label for="allergies4"> Yam</label>
+            <input type="checkbox" name="allergies5" id="allergies5" value="Pork">
+            <label for="allergies5"> Pork</label>
+        </div>
+        <br>
+        <div>
+            <label for="schools">Choose your School</label>
+            <select name="school" id="school">
+                <option value="gimpa">GIMPA</option>
+                <option value="legon">Unversity of Ghana Legon</option>
+                <option value="upsa">UPSA</option>
+                <option value="wisconsin">Wisconsin</option>
+                <option value="ipmc">IPMC</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for=""> Gender</label>
+            <br>
+            <input type="radio" name="gender" value="male" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" value="female" id="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" value="transmasc" id="transmasc">
+            <label for="transmasc">Transmasc</label>
+            <input type="radio" name="gender" value="transfemme" id="transfemme">
+            <label for="transfemme">Transfemme</label>
+            <input type="radio" name="gender" value="other" id="other">
+            <label for="other">other</label>
+        </div>
+        <br>
+        <div>
+            <label for=""> Select your favorite color</label>
+            <input type="color" name="color" id color>
+        </div>
+        <br>
+        <div>
+            <label for=""> Delivery Date and Time</label>
+            <input type="datetime-local" name="delivery_date" id="delivery_date">
+        </div>
+        <br>
+        <div>
+            <label for="">Delivery Address</label>
+            <input type="text" name="address" id="address">
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Register">
+        </div>
+    </form>
+    
+</body>
+</html>
